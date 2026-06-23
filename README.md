@@ -25,9 +25,12 @@ This repository tracks all assignments and coursework for CS351. It demonstrates
 ```
 11402_CS351/
 ├── README.md           # This file — student info and repo overview
-└── Assignment/
-    └── AssignmentI/    # Assignment I submission materials
-        └── README.md
+├── Assignment/
+│   └── AssignmentI/    # Assignment I submission materials
+│       └── README.md
+└── Projects/
+    ├── Project0/       # Two Sum — brute force vs. hash table (submodule)
+    └── ProjectB/       # CSV Mini Database & Query Engine (submodule)
 ```
 
 ## Assignments
@@ -35,6 +38,19 @@ This repository tracks all assignments and coursework for CS351. It demonstrates
 | Assignment | Topic | Status |
 |---|---|---|
 | [Assignment I](./Assignment/AssignmentI/) | Git, GitHub & Markdown | ✅ Complete |
+
+## Projects
+
+| Project | Description | Repo |
+|---|---|---|
+| [Project 0](https://github.com/max-shen378/11402_CS5351_Project0) | Two Sum — brute force O(n²) vs. hash table O(n), 40-case test suite, 3-OS CI | [↗](https://github.com/max-shen378/11402_CS5351_Project0) |
+| [Project B](https://github.com/max-shen378/11402_CS5351_ProjectB) | CSV Mini Database — SQL-like query engine in C++17, 164 checks, hash indexes, benchmark | [↗](https://github.com/max-shen378/11402_CS5351_ProjectB) |
+
+Both projects are linked as git submodules. Clone with submodules:
+
+```bash
+git clone --recurse-submodules https://github.com/max-shen378/11402_CS351
+```
 
 ## Submission URLs
 

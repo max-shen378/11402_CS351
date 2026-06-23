@@ -1,0 +1,6 @@
+[submodule "Projects/Project0"]
+	path = Projects/Project0
+	url = https://github.com/max-shen378/11402_CS5351_Project0
+[submodule "Projects/ProjectB"]
+	path = Projects/ProjectB
+	url = https://github.com/max-shen378/11402_CS5351_ProjectB
